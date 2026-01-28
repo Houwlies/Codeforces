@@ -1,6 +1,6 @@
 package nl.houwlies.codeforces;
 
-import nl.houwlies.codeforces.problems.Day1Problem1;
+import nl.houwlies.codeforces.problems.HundredEasyProblems.Day1Problem1;
 
 import java.util.Scanner;
 
