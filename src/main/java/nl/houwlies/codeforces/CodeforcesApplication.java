@@ -6,9 +6,6 @@ public class CodeforcesApplication {
 
 	public static void main(String[] args) {
 
-
-
-
     }
 
 }
