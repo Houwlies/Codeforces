@@ -3,28 +3,21 @@ import java.util.Scanner;
 
 public class Day1Problem3 {
 
-    public static void main(String[] args) {
-
-        Scanner scan = new Scanner(System.in);
-
-        int amountOfKids = scan.nextInt();
-
-        int[] array = new int[amountOfKids];
-
-
-        for (int i = 0; i < amountOfKids; i++) {
-            array[i] = scan.nextInt();
-        }
-
-        int border1 = scan.nextInt();
-        int border2 = scan.nextInt();
-        int totalAmountOfCandy = 0;
-        for (int i = border1; i <= border2; i++) {
-            totalAmountOfCandy += array[i];
-        }
-        System.out.println(totalAmountOfCandy);
-
-
-    }
+//    Scanner scan = new Scanner(System.in);
+//
+//    int amountOfWords = scan.nextInt();
+//
+//        while (amountOfWords > 0) {
+//        String word = scan.next();
+//        if (word.length() > 10) {
+//            System.out.printf("%s%s%s\n",
+//                    word.charAt(0),
+//                    (word.length()-2),
+//                    word.charAt(word.length()-1));
+//        } else {
+//            System.out.println(word);
+//        }
+//        amountOfWords --;
+//    }
 
 }
