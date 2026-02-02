@@ -1,8 +1,10 @@
 package nl.houwlies.codeforces.problems.HundredEasyProblems;
 
+import java.util.Scanner;
+
 public class Day1Problem4 {
 
-
+//
 //    Scanner scan = new Scanner(System.in);
 //
 //    String[] arr = new String[2];
